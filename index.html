@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哈米主页</title>
+    <style>
+        body {margin: 0;
+            height: 100vh;
+            background-color: rgb(202, 196, 196);
+        } 
+        .yinying{
+            box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px,
+            rgb(0 0 0 / 14%) 0px 1px 1px 0px,rgb(0 0 0 / 12%) 0px 1px 3px 0px;
+        }
+        .flex{
+            display: flex;
+        }
+        .baise{
+            background-color: white;
+        }
+        .flex1{
+            flex:1;
+        }
+        .shuxiang{
+            flex-direction: column;
+        }
+        .mar{margin: 8px;
+
+        }
+        .maryou{
+            margin-right:8px ;
+        }
+        .marshang{
+            margin-top: 8px;
+        }
+        .zhong{text-align: center;
+
+        }
+        .hong{color:rgb(255, 0, 0);
+        }
+        .suoxiao{margin: 6px;
+        }
+    @media (max-width:600px) {
+        .cebian{display: none;}
+        .nerong{flex-direction: column;}
+        .shuju{flex-direction: column;} 
+        .you{margin-left: 8px;}   
+        .shujukuai{margin-right: 0px;}
+        .shuju{margin: 0 0 8px;flex: auto;}
+        .tuopian{width: 20px;height: 20px;}
+         }
+         .neirong:-webkit-scrollbar{
+            display: none;
+         }
+    </style>
+</head>
+<body class="flex">
+    <!-- 侧边栏 -->
+    <div style="width:250px ;z-index: 2;background-color: rgb(255, 255, 255);"
+     class=" yinying cebian">
+        <!-- 头像框 -->
+        <div style="border-bottom: 1px solid #999;padding: 3px;"class="zhong">
+            <img class="tuopian"alt="luxi" src="https://p1.ssl.qhimgs1.com/sdr/400__/t01070e2af349078ab7.jpg"
+            width="49PX"height="49PX">
+            <p style="color:rgb(50, 177, 56); margin: 0px;">
+            哈米
+            </p>
+        </div>
+        <!-- 告示栏 -->
+        <div class="zhong" style="flex:2;border:1px solid rgba(255, 0, 0, 0.822);margin-top:0px;">
+            <h1 class="hong" style="margin:8px;">声明</h1>
+            <p class="hong" style="margin-bottom:6PX">本网站处于测试阶段</p>
+            <p class="hong suoxiao">This website is in beta</p>
+            <p class="hong" style="margin-bottom:6PX">所有弹窗皆为广告</p>
+            <p class="hong suoxiao" style="width:39vh;">All pop-ups are advertisements</p>
+        </div>
+        <!-- 版权 -->
+        <div class="zhong" style="border:3px solid rgb(129, 129, 129);margin-top: 200px;">
+            <p style="color:rgb(33, 36, 33) ;">版权所有：</p>
+            <p style="color:rgb(33, 36, 33) ;">QQ:2012390487</p>
+            <a href="https://github.com/"><p>发布平台</p></a>
+        </div>
+    </div>
+    <!-- 主区域 -->
+    <div class="flex1 flex shuxiang ">
+        <!-- 头部栏 -->
+        <div style="height:80px;z-index: 1;justify-content: space-between;justify-content: space-around;"
+        class="baise yinying zhong flex">
+        <a href="https://www.baidu.com"><p style="color: black;">百度</p></a>
+        <a href="http://www.4399.com"><p style="color: black;">4399</p></a>
+        <a href="https://im.qq.com/index"><p style="color: black;">QQ</p></a>
+        <a href="https://youku.com"><p style="color: black;">优酷</p></a>
+        <a href="https://www.douyin.com"><p style="color: black;">抖音</p></a>
+        <a href="https://www.1688.com"><p style="color: black;">1688</p></a>
+        <a href="https://www.tmall.com.lc "><p style="color: black;">天猫</p></a>
+        <a href="https://www.jd.com"><p style="color: black;">京东</p></a>
+        </div>
+        <!-- 内容区 -->
+        <div style="overflow:auto"
+        class="flex1 flex nerong ">
+            <!-- 左区 -->
+            <div style="flex:3;"class="flex shuxiang mar">
+               <!-- 数据区 -->
+               <div class="flex shuj shuju ">
+                  <!-- 数据块 -->
+                  <div style="height: 100px;background-color: aqua;" 
+                  class="shuju flex1 maryou yinying zhong">
+                    <img  style="margin-top: 6px;"alt="wuhu"src="https://ts3.cn.mm.bing.net/th?id=OIP-C.xM_krfqBVo9GX_DbcgD6EgHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+                    width="50px"height="50px">
+                    <a href="https://popowangxuan.github.io./popowangxuan1/index.html"><p style="color:black;">附属网站ONE</p></a>                </div>
+                  <div style="height: 100px; background-color: aqua;" class="shuju flex1 baise maryou yinying zhong">
+                    <img  style="margin-top: 6px;"alt="juwairen" src="./700.jpg"width="50px"height=“50px”>
+                    <a href="https://popowangxuan.github.io./popowangxuan1/new,html"><p style="color:black;">附属网站TWO</p></a>
+                </div>
+                  <div style="height: 100px;" class="shuju flex1 baise maryou yinying">
+                </div>
+                  <div style="height: 100px;" class="shuju flex1 baise yinying">
+                </div>
+               </div>
+               <!-- 列表区 -->
+               <div class="flex shuxiang">
+                  <!-- 列表项 -->
+                  <div style="height:160px ;"class="baise marshang yinying"></div>
+                  <div style="height:160px ;"class="baise marshang yinying"></div>
+                  <div style="height:160px ;"class="baise marshang yinying"></div>
+                  <div style="height:160px ;"class="baise marshang yinying"></div>
+               </div>
+            </div>
+            <!-- 右区 -->
+            <div style="flex:1;"class="you flex shuxiang maryou marshang">
+               <!-- 提示区 -->
+               <div style="height:150PX;"class="baise yinying"></div>
+               <!-- 消息区 -->
+               <div style="height: 300px;"class="baise marshang yinying "></div>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
