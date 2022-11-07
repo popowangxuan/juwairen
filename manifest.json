@@ -1,4 +1,5 @@
- "short_name": "应用",
+{
+    "short_name": "应用",
     "name": "哈米",
     "lang": "en",
     "description": "一个应用app",
