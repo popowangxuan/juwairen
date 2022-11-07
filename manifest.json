@@ -4,7 +4,7 @@
     "lang": "zh-Hans",
     "description": "一个应用app",
     "start_url": "/",
-    "id":"/"
+    "id":"/",
     "background_color": "#00aae7",
     "theme_color": "#00aae7",
     "dir": "ltr",
