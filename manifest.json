@@ -1,193 +1,79 @@
-{short_name: "康文昌", name: "康文昌", lang: "zh-CN",…}
-background_color
-: 
-"#ffffff"
-description
-: 
-"康文昌的个人网站。《Re01从零开始的编程之路》作者，元岛midorg.com 发起人，清林云baasapi.com 创始人。"
-dir
-: 
-"auto"
-display
-: 
-"standalone"
-icons
-: 
-[{src: "/android-icon-192x192-seochecker-manifest-115.png", type: "image/png", sizes: "192x192",…},…]
-0
-: 
-{src: "/android-icon-192x192-seochecker-manifest-115.png", type: "image/png", sizes: "192x192",…}
-purpose
-: 
-"any maskable"
-sizes
-: 
-"192x192"
-src
-: 
-"/android-icon-192x192-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-1
-: 
-{src: "/android-chrome-512x512.png", type: "image/png", sizes: "512x512"}
-sizes
-: 
-"512x512"
-src
-: 
-"/android-chrome-512x512.png"
-type
-: 
-"image/png"
-2
-: 
-{src: "/apple-icon-180x180-seochecker-manifest-115.png", type: "image/png", sizes: "180x180"}
-sizes
-: 
-"180x180"
-src
-: 
-"/apple-icon-180x180-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-3
-: 
-{src: "/apple-icon-152x152-seochecker-manifest-115.png", type: "image/png", sizes: "152x152"}
-sizes
-: 
-"152x152"
-src
-: 
-"/apple-icon-152x152-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-4
-: 
-{src: "/apple-icon-144x144-seochecker-manifest-115.png", type: "image/png", sizes: "144x144"}
-sizes
-: 
-"144x144"
-src
-: 
-"/apple-icon-144x144-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-5
-: 
-{src: "/apple-icon-120x120-seochecker-manifest-115.png", type: "image/png", sizes: "120x120"}
-sizes
-: 
-"120x120"
-src
-: 
-"/apple-icon-120x120-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-6
-: 
-{src: "/apple-icon-114x114-seochecker-manifest-115.png", type: "image/png", sizes: "114x114"}
-sizes
-: 
-"114x114"
-src
-: 
-"/apple-icon-114x114-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-7
-: 
-{src: "/favicon-96x96-seochecker-manifest-115.png", type: "image/png", sizes: "96x96"}
-sizes
-: 
-"96x96"
-src
-: 
-"/favicon-96x96-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-8
-: 
-{src: "/apple-icon-76x76-seochecker-manifest-115.png", type: "image/png", sizes: "76x76"}
-sizes
-: 
-"76x76"
-src
-: 
-"/apple-icon-76x76-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-9
-: 
-{src: "/apple-icon-72x72-seochecker-manifest-115.png", type: "image/png", sizes: "72x72"}
-sizes
-: 
-"72x72"
-src
-: 
-"/apple-icon-72x72-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-10
-: 
-{src: "/apple-icon-60x60-seochecker-manifest-115.png", type: "image/png", sizes: "60x60"}
-sizes
-: 
-"60x60"
-src
-: 
-"/apple-icon-60x60-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-11
-: 
-{src: "/apple-icon-57x57-seochecker-manifest-115.png", type: "image/png", sizes: "57x57"}
-sizes
-: 
-"57x57"
-src
-: 
-"/apple-icon-57x57-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-12
-: 
-{src: "/favicon-32x32-seochecker-manifest-115.png", type: "image/png", sizes: "32x32"}
-sizes
-: 
-"32x32"
-src
-: 
-"/favicon-32x32-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-13
-: 
-{src: "/favicon-16x16-seochecker-manifest-115.png", type: "image/png", sizes: "16x16"}
-sizes
-: 
-"16x16"
-src
-: 
-"/favicon-16x16-seochecker-manifest-115.png"
-type
-: 
-"image/png"
-id: "/"
-lang: "zh-CN"
-name: "康文昌"
-short_name: "康文昌"
-start_url: "/"
-theme_color: "#76d8ff"
+ "short_name": "应用",
+    "name": "哈米",
+    "lang": "en",
+    "description": "一个应用app",
+    "start_url": "https://popowangxuan.github.io/juwairen/index.html",
+    "background_color": "#00aae7",
+    "theme_color": "#00aae7",
+    "dir": "auto",
+    "display": "standalone",
+    "orientation": "any",
+    "icons": [
+    {
+      "src": "/android-icon-192x192-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/apple-icon-180x180-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/apple-icon-152x152-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "152x152"
+    },
+    {
+      "src": "/apple-icon-144x144-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/apple-icon-120x120-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "/apple-icon-114x114-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "/favicon-96x96-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/apple-icon-76x76-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "/apple-icon-72x72-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/apple-icon-60x60-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "60x60"
+    },
+    {
+      "src": "/apple-icon-57x57-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "57x57"
+    },
+    {
+      "src": "/favicon-32x32-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/favicon-16x16-seochecker-manifest-3807.jpg",
+      "type": "image/png",
+      "sizes": "16x16"
+    }
+  ],
+  "prefer_related_applications": false
+}
